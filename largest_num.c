@@ -2,6 +2,7 @@
 int max_of_four(int a, int b, int c, int d)
 {
     int largest;
+    if(a>b && a>c && a>d)
     largest = a;
     if(b>a && b>c && b>d)
     largest = b;
